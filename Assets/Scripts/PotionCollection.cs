@@ -230,4 +230,9 @@ public class PotionCollection : MonoBehaviour, IDropHandler
     {
         SaveData();
     }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        SaveData();
+    }
 }

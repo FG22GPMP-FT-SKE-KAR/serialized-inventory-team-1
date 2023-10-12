@@ -95,6 +95,7 @@ public class PotionCollection : MonoBehaviour, IDropHandler
             string contents = File.ReadAllText(filePath);
 
             PotionSave potionSave = JsonUtility.FromJson<PotionSave>(contents);
+            _nextDateTime = DateTime.Parse(potionSave.NextDateTime);
 
             for (int i = 0; i < _potionSlots.Count; i++)
             {

@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 864974304}
   - component: {fileID: 864974303}
   - component: {fileID: 864974307}
+  - component: {fileID: 864974308}
   m_Layer: 0
   m_Name: Cheese
   m_TagString: Untagged
@@ -333,6 +334,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19a29d72dc81f214695969fdb333373b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &864974308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864974302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9fddd75382d954a9cf5e8ce3bb23ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225

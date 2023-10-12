@@ -255,7 +255,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/danny.bui/OneDrive - Change Maker Education/Documents/dannybui.keystore
+  AndroidKeystoreName: C:/Users/danny/Documents/dannybui.keystore
   AndroidKeyaliasName: cheese
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
